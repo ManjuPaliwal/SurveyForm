@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="../survey\style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="about">
+            <h1 id="title">College Life Survey</h1>
+            <p id="description">The college life survey is related to  student Experience...</p>
+        </div>
+        <form id="survey-form" >
+            <div id="div">
+                <div class="circle"></div>
+                <div class="circle"></div></div>
+            <label id="name-label">UserName</label>
+            <input type="text" id="name" required placeholder="Enter your name"><br><br>
+            <label id="email-label" >Email address</label>
+            <input type="email" id="email" required placeholder="Enter your email"><br><br>
+            <label id="number-label">Age</label>
+            <input type="number" id="number" min="10" max="99" placeholder="22"><br><br>
+            <select id="dropdown">
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+                <option value="Learner">Learner</option>
+            </select><br><br>
+           <legend id="experience">College Experience</legend>
+           <input type="radio" name="a" value="Excellent"><label id="radio">Excellent</label><br>
+           <input type="radio" name="a" value="Good"><label id="radio">Good</label><br>
+           <input type="radio" name="a" value="Average"><label id="radio">Average</label><br>
+           <input type="radio" name="a" value="Bad"><label id="radio">Bad</label><br><br>
+           <legend id="Activity">Activity Done In College</legend>
+           <input type="checkbox" value="Community service" ><label id="checkbox">Community service</label>
+           <input type="checkbox" value="Sports"><label id="checkbox">Sports</label><br><br>
+           <input type="checkbox"value="Internship" ><label id="checkbox">Internship</label>
+           <input type="checkbox"value="Dance" ><label id="checkbox">Dance</label><br><br>
+           <input type="checkbox"value="Volunteering" ><label id="checkbox">Volunteering</label>
+           <input type="checkbox"value="others" ><label id="checkbox">Others</label>
+           <br><br>
+           <textarea  id="textarea" cols="30" rows="10" placeholder="college experience..."></textarea>
+           <br><br>
+           <button id="submit" type="submit"><span>Submit</span></button>
+            
+        </form>
+        
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
